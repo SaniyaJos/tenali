@@ -50,7 +50,7 @@
 <!-- live-snapshot:start -->
 | 🏆 Commits | 🔀 Merged PRs | 👥 Contributors | 🧩 Puzzles | 📚 Vocab | 🌍 GK |
 |----------:|------------:|--------------:|---------:|-------:|----:|
-| **870** | **73** | **21** | **69** | **7,662** | **991** |
+| **871** | **73** | **21** | **69** | **7,662** | **991** |
 <!-- live-snapshot:end -->
 
 ## 🥇 Leaderboard
@@ -69,8 +69,8 @@ _Live data — last regenerated 2026-08-08 · auto-refreshed by [`github-actions
 | 7. | **DIPTOSUBHRO DATTA**<br/><sub>↳ also commits as <b>Dipto Subhro</b></sub> | [diptosubhro-ctrl](https://github.com/diptosubhro-ctrl) | **33** | 1  | Tutorial System + Noise Filter Refactor |
 | 8. | **Ritish Karmakar** | [Ritish007-svg](https://github.com/Ritish007-svg) | **27** | 1  | Percentages Level-wise Explanation |
 | 9. | **saniyajos**<br/><sub>↳ also commits as <b>SaniyaJos</b></sub> | [saniyajos](https://github.com/saniyajos) | **22** | 0  | — |
-| 10. | **K C Dharshan** | [KCDharshan9](https://github.com/KCDharshan9) | **21** | 1  | Tap-to-Define Word Glossary |
-| 11. | **github-actions-bot-**<br/><sub>↳ also commits as <b>github-actions[bot]</b></sub> | [github-actions-bot-](https://github.com/github-actions-bot-) | **20** | 0  | — |
+| 10. | **github-actions-bot-**<br/><sub>↳ also commits as <b>github-actions[bot]</b></sub> | [github-actions-bot-](https://github.com/github-actions-bot-) | **21** | 0  | — |
+| 11. | **K C Dharshan** | [KCDharshan9](https://github.com/KCDharshan9) | **21** | 1  | Tap-to-Define Word Glossary |
 | 12. | **Ahana Banerjee** | [ahana4banerjee](https://github.com/ahana4banerjee) | **20** | 2  | Goal Practice & Learning Journey |
 | 13. | **harshyy07** | [harshyy07](https://github.com/harshyy07) | **16** | 1  | — |
 | 14. | **Shubh Dixit**<br/><sub>↳ also commits as <b>Shubh dixit</b></sub> | [Shubhdix9](https://github.com/Shubhdix9) | **16** | 2  | Premium UI Suite + Word Games |
@@ -337,21 +337,18 @@ _Live data — last regenerated 2026-08-08 · auto-refreshed by [`github-actions
   <table>
     <tr>
       <td align="center" width="220">
-        <a href="https://github.com/KCDharshan9"><img src="https://avatars.githubusercontent.com/u/196636372?v=4&s=120" width="120" style="border-radius:50%; border:3px solid #1ABC9C;" alt="K C Dharshan"/></a>
-        <br/><b>K C Dharshan</b>
-        <br/><a href="https://github.com/KCDharshan9">@KCDharshan9</a>
-        <br/><sub>🏆 21 commits · 1 PR merged</sub>
-        <br/><sub>📍 India</sub>
+        <a href="https://github.com/github-actions-bot-"><img src="https://github.com/github-actions-bot-.png?size=120&s=120" width="120" style="border-radius:50%; border:3px solid #888888;" alt="github-actions-bot-"/></a>
+        <br/><b>github-actions-bot-</b>
+        <br/><a href="https://github.com/github-actions-bot-">@github-actions-bot-</a>
+        <br/><sub>🏆 21 commits · 0 PRs merged</sub>
+        <br/><sub>🔗 also commits as: <b>github-actions[bot]</b></sub>
       </td>
       <td valign="top" width="*">
-        <h4>10. Tap-to-Define Word Glossary</h4>
+        <h4>10. New Contributor</h4>
         <ul>
-          <li>📖 <b>Tap-to-Define Word Glossary (PR #20)</b> — Word Explorer + enriched definition popovers with SVG visuals</li>
-          <li>🆕 <b>Learn These Words pre-quiz (Feature AQ)</b> — vocab warmup section</li>
-          <li>🛠️ <b>Bugs sweep</b> — submit button in addition app, version/build date behind hamburger, alignment/SVG issues</li>
-          <li>🔀 <b>5× merge conflict resolutions</b> — clean upstream merges</li>
-          <li>🧹 <b>Cleanup</b> — removed PowerShell scripts, ignored internal docs, restored Vite proxy config</li>
-          <li>📦 <b>Datasets</b> — added new vocabulary & question data files + updated server dependencies</li>
+          <li>🆕 <b>New contributor</b> — auto-added by the readme-bot</li>
+          <li>📊 <b>21 commits</b> across this repo's history</li>
+          <li>🔗 <i>Add a <code>FALLBACK_PROFILES</code> entry in <code>scripts/update-readme-contributors.js</code> to enrich this card with real name, avatar, location, and curated feature list</i></li>
         </ul>
       </td>
     </tr>
@@ -362,18 +359,21 @@ _Live data — last regenerated 2026-08-08 · auto-refreshed by [`github-actions
   <table>
     <tr>
       <td align="center" width="220">
-        <a href="https://github.com/github-actions-bot-"><img src="https://github.com/github-actions-bot-.png?size=120&s=120" width="120" style="border-radius:50%; border:3px solid #888888;" alt="github-actions-bot-"/></a>
-        <br/><b>github-actions-bot-</b>
-        <br/><a href="https://github.com/github-actions-bot-">@github-actions-bot-</a>
-        <br/><sub>🏆 20 commits · 0 PRs merged</sub>
-        <br/><sub>🔗 also commits as: <b>github-actions[bot]</b></sub>
+        <a href="https://github.com/KCDharshan9"><img src="https://avatars.githubusercontent.com/u/196636372?v=4&s=120" width="120" style="border-radius:50%; border:3px solid #1ABC9C;" alt="K C Dharshan"/></a>
+        <br/><b>K C Dharshan</b>
+        <br/><a href="https://github.com/KCDharshan9">@KCDharshan9</a>
+        <br/><sub>🏆 21 commits · 1 PR merged</sub>
+        <br/><sub>📍 India</sub>
       </td>
       <td valign="top" width="*">
-        <h4>11. New Contributor</h4>
+        <h4>11. Tap-to-Define Word Glossary</h4>
         <ul>
-          <li>🆕 <b>New contributor</b> — auto-added by the readme-bot</li>
-          <li>📊 <b>20 commits</b> across this repo's history</li>
-          <li>🔗 <i>Add a <code>FALLBACK_PROFILES</code> entry in <code>scripts/update-readme-contributors.js</code> to enrich this card with real name, avatar, location, and curated feature list</i></li>
+          <li>📖 <b>Tap-to-Define Word Glossary (PR #20)</b> — Word Explorer + enriched definition popovers with SVG visuals</li>
+          <li>🆕 <b>Learn These Words pre-quiz (Feature AQ)</b> — vocab warmup section</li>
+          <li>🛠️ <b>Bugs sweep</b> — submit button in addition app, version/build date behind hamburger, alignment/SVG issues</li>
+          <li>🔀 <b>5× merge conflict resolutions</b> — clean upstream merges</li>
+          <li>🧹 <b>Cleanup</b> — removed PowerShell scripts, ignored internal docs, restored Vite proxy config</li>
+          <li>📦 <b>Datasets</b> — added new vocabulary & question data files + updated server dependencies</li>
         </ul>
       </td>
     </tr>
