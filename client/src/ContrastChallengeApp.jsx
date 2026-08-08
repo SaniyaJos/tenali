@@ -7,6 +7,15 @@
 
 import { useState, useEffect, useCallback, useRef } from 'react';
 
+// Helper to dynamically resolve asset URLs based on the deployment's base path
+const getAssetUrl = (path) => {
+  const base = import.meta.env.BASE_URL || '/';
+  const cleanBase = base.endsWith('/') ? base : `${base}/`;
+  const cleanPath = path.startsWith('/') ? path.slice(1) : path;
+  return `${cleanBase}${cleanPath}`;
+};
+
+
 // Hardcoded list of all contrast pairs (replaces server JSON + API)
 const CONTRAST_PAIRS = [
   { id: 'area-perimeter', title: 'Area vs Perimeter' },
@@ -1285,7 +1294,7 @@ function AreaPerimeterChallenge({ onBack, onComplete, onMarkComplete }) {
             boxShadow: '0 4px 12px rgba(232, 134, 74, 0.2)'
           }}>
             <img 
-              src="/contrast/mission.svg" 
+              src={getAssetUrl('contrast/mission.svg')} 
               alt="Mission" 
               style={{ 
                 width: '32px', 
@@ -1366,7 +1375,7 @@ function AreaPerimeterChallenge({ onBack, onComplete, onMarkComplete }) {
               alignItems: 'center'
             }}>
               <img
-                src="/contrast/area.png"
+                src={getAssetUrl('contrast/area.png')}
                 alt="Area illustration"
                 style={{
                   width: '100%',
@@ -1412,7 +1421,7 @@ function AreaPerimeterChallenge({ onBack, onComplete, onMarkComplete }) {
               alignItems: 'center'
             }}>
               <img
-                src="/contrast/perimeter.png"
+                src={getAssetUrl('contrast/perimeter.png')}
                 alt="Perimeter illustration"
                 style={{
                   width: '100%',
@@ -2163,7 +2172,7 @@ function RadiusDiameterChallenge({ onBack, onComplete, onMarkComplete }) {
               overflow: 'hidden'
             }}>
               <img
-                src="/contrast/radius.png"
+                src={getAssetUrl('contrast/radius.png')}
                 alt="Radius representation"
                 style={{
                   width: '100%',
@@ -2207,7 +2216,7 @@ function RadiusDiameterChallenge({ onBack, onComplete, onMarkComplete }) {
               overflow: 'hidden'
             }}>
               <img
-                src="/contrast/diameter.png"
+                src={getAssetUrl('contrast/diameter.png')}
                 alt="Diameter representation"
                 style={{
                   width: '100%',
@@ -2256,7 +2265,7 @@ function RadiusDiameterChallenge({ onBack, onComplete, onMarkComplete }) {
             boxShadow: '0 4px 12px rgba(232, 134, 74, 0.2)'
           }}>
             <img 
-              src="/contrast/mission.svg" 
+              src={getAssetUrl('contrast/mission.svg')} 
               alt="Mission" 
               style={{ 
                 width: '32px', 
@@ -2902,7 +2911,7 @@ function HcfLcmChallenge({ onBack, onComplete, onMarkComplete }) {
               overflow: 'hidden'
             }}>
               <img
-                src="/contrast/hcf.png"
+                src={getAssetUrl('contrast/hcf.png')}
                 alt="HCF representation"
                 style={{
                   width: '100%',
@@ -2946,7 +2955,7 @@ function HcfLcmChallenge({ onBack, onComplete, onMarkComplete }) {
               overflow: 'hidden'
             }}>
               <img
-                src="/contrast/lcm.png"
+                src={getAssetUrl('contrast/lcm.png')}
                 alt="LCM representation"
                 style={{
                   width: '100%',
@@ -2996,7 +3005,7 @@ function HcfLcmChallenge({ onBack, onComplete, onMarkComplete }) {
             boxShadow: '0 4px 12px rgba(232, 134, 74, 0.2)'
           }}>
             <img 
-              src="/contrast/mission.svg" 
+              src={getAssetUrl('contrast/mission.svg')} 
               alt="Mission" 
               style={{ 
                 width: '32px', 
@@ -3917,7 +3926,7 @@ function FactorsMultiplesChallenge({ onBack, onComplete, onMarkComplete }) {
               overflow: 'hidden'
             }}>
               <img
-                src="/contrast/factors-first.png"
+                src={getAssetUrl('contrast/factors-first.png')}
                 alt="Factors stage 1"
                 style={{
                   position: 'absolute',
@@ -3931,7 +3940,7 @@ function FactorsMultiplesChallenge({ onBack, onComplete, onMarkComplete }) {
                 }}
               />
               <img
-                src="/contrast/factors-middle.png"
+                src={getAssetUrl('contrast/factors-middle.png')}
                 alt="Factors stage 2"
                 style={{
                   position: 'absolute',
@@ -3945,7 +3954,7 @@ function FactorsMultiplesChallenge({ onBack, onComplete, onMarkComplete }) {
                 }}
               />
               <img
-                src="/contrast/factors-end.png"
+                src={getAssetUrl('contrast/factors-end.png')}
                 alt="Factors stage 3"
                 style={{
                   position: 'absolute',
@@ -3994,7 +4003,7 @@ function FactorsMultiplesChallenge({ onBack, onComplete, onMarkComplete }) {
               overflow: 'hidden'
             }}>
               <img
-                src="/contrast/multiples-first.png"
+                src={getAssetUrl('contrast/multiples-first.png')}
                 alt="Multiples stage 1"
                 style={{
                   position: 'absolute',
@@ -4008,7 +4017,7 @@ function FactorsMultiplesChallenge({ onBack, onComplete, onMarkComplete }) {
                 }}
               />
               <img
-                src="/contrast/multiples-2.png"
+                src={getAssetUrl('contrast/multiples-2.png')}
                 alt="Multiples stage 2"
                 style={{
                   position: 'absolute',
@@ -4022,7 +4031,7 @@ function FactorsMultiplesChallenge({ onBack, onComplete, onMarkComplete }) {
                 }}
               />
               <img
-                src="/contrast/multiples-3.png"
+                src={getAssetUrl('contrast/multiples-3.png')}
                 alt="Multiples stage 3"
                 style={{
                   position: 'absolute',
@@ -4036,7 +4045,7 @@ function FactorsMultiplesChallenge({ onBack, onComplete, onMarkComplete }) {
                 }}
               />
               <img
-                src="/contrast/multiples-end.png"
+                src={getAssetUrl('contrast/multiples-end.png')}
                 alt="Multiples stage 4"
                 style={{
                   position: 'absolute',
@@ -4091,7 +4100,7 @@ function FactorsMultiplesChallenge({ onBack, onComplete, onMarkComplete }) {
             boxShadow: '0 4px 12px rgba(232, 134, 74, 0.2)'
           }}>
             <img 
-              src="/contrast/mission.svg" 
+              src={getAssetUrl('contrast/mission.svg')} 
               alt="Mission" 
               style={{ 
                 width: '32px', 
@@ -4973,7 +4982,7 @@ function CongruenceSimilarityChallenge({ onBack, onComplete, onMarkComplete }) {
               alignItems: 'center'
             }}>
               <img
-                src="/contrast/congruent.png"
+                src={getAssetUrl('contrast/congruent.png')}
                 alt="Congruence illustration"
                 style={{
                   width: '100%',
@@ -5017,7 +5026,7 @@ function CongruenceSimilarityChallenge({ onBack, onComplete, onMarkComplete }) {
               overflow: 'hidden'
             }}>
               <img
-                src="/contrast/similarity-first.png"
+                src={getAssetUrl('contrast/similarity-first.png')}
                 alt="Similarity stage 1"
                 style={{
                   position: 'absolute',
@@ -5031,7 +5040,7 @@ function CongruenceSimilarityChallenge({ onBack, onComplete, onMarkComplete }) {
                 }}
               />
               <img
-                src="/contrast/similarity-middle.png"
+                src={getAssetUrl('contrast/similarity-middle.png')}
                 alt="Similarity stage 2"
                 style={{
                   position: 'absolute',
@@ -5045,7 +5054,7 @@ function CongruenceSimilarityChallenge({ onBack, onComplete, onMarkComplete }) {
                 }}
               />
               <img
-                src="/contrast/similarity-end.png"
+                src={getAssetUrl('contrast/similarity-end.png')}
                 alt="Similarity stage 3"
                 style={{
                   position: 'absolute',
@@ -5100,7 +5109,7 @@ function CongruenceSimilarityChallenge({ onBack, onComplete, onMarkComplete }) {
             boxShadow: '0 4px 12px rgba(232, 134, 74, 0.2)'
           }}>
             <img 
-              src="/contrast/mission.svg" 
+              src={getAssetUrl('contrast/mission.svg')} 
               alt="Mission" 
               style={{ 
                 width: '32px', 
@@ -5881,7 +5890,7 @@ function MatricesDeterminantsChallenge({ onBack, onComplete, onMarkComplete }) {
               overflow: 'hidden'
             }}>
               <img
-                src="/contrast/matrix.png"
+                src={getAssetUrl('contrast/matrix.png')}
                 alt="Matrix representation"
                 style={{
                   width: '100%',
@@ -5925,7 +5934,7 @@ function MatricesDeterminantsChallenge({ onBack, onComplete, onMarkComplete }) {
               overflow: 'hidden'
             }}>
               <img
-                src="/contrast/determinants.png"
+                src={getAssetUrl('contrast/determinants.png')}
                 alt="Determinant representation"
                 style={{
                   width: '100%',
@@ -5975,7 +5984,7 @@ function MatricesDeterminantsChallenge({ onBack, onComplete, onMarkComplete }) {
             boxShadow: '0 4px 12px rgba(232, 134, 74, 0.2)'
           }}>
             <img 
-              src="/contrast/mission.svg" 
+              src={getAssetUrl('contrast/mission.svg')} 
               alt="Mission" 
               style={{ 
                 width: '32px', 
@@ -6795,7 +6804,7 @@ function MeanMedianModeChallenge({ onBack, onComplete, onMarkComplete }) {
               overflow: 'hidden'
             }}>
               <img
-                src="/contrast/mean.png"
+                src={getAssetUrl('contrast/mean.png')}
                 alt="Mean representation"
                 style={{
                   width: '100%',
@@ -6839,7 +6848,7 @@ function MeanMedianModeChallenge({ onBack, onComplete, onMarkComplete }) {
               overflow: 'hidden'
             }}>
               <img
-                src="/contrast/median.png"
+                src={getAssetUrl('contrast/median.png')}
                 alt="Median representation"
                 style={{
                   width: '100%',
@@ -6883,7 +6892,7 @@ function MeanMedianModeChallenge({ onBack, onComplete, onMarkComplete }) {
               overflow: 'hidden'
             }}>
               <img
-                src="/contrast/mode.png"
+                src={getAssetUrl('contrast/mode.png')}
                 alt="Mode representation"
                 style={{
                   width: '100%',
@@ -6933,7 +6942,7 @@ function MeanMedianModeChallenge({ onBack, onComplete, onMarkComplete }) {
             boxShadow: '0 4px 12px rgba(232, 134, 74, 0.2)'
           }}>
             <img 
-              src="/contrast/mission.svg" 
+              src={getAssetUrl('contrast/mission.svg')} 
               alt="Mission" 
               style={{ 
                 width: '32px', 
@@ -7728,7 +7737,7 @@ function LimitsDifferentiationChallenge({ onBack, onComplete, onMarkComplete }) 
               overflow: 'hidden'
             }}>
               <img
-                src="/contrast/limit.png"
+                src={getAssetUrl('contrast/limit.png')}
                 alt="Limit representation"
                 style={{
                   width: '100%',
@@ -7828,7 +7837,7 @@ function LimitsDifferentiationChallenge({ onBack, onComplete, onMarkComplete }) 
             boxShadow: '0 4px 12px rgba(232, 134, 74, 0.2)'
           }}>
             <img 
-              src="/contrast/mission.svg" 
+              src={getAssetUrl('contrast/mission.svg')} 
               alt="Mission" 
               style={{ 
                 width: '32px', 
@@ -8688,7 +8697,7 @@ function DifferentiationIntegrationChallenge({ onBack, onComplete, onMarkComplet
               overflow: 'hidden'
             }}>
               <img
-                src="/contrast/diff-first.png"
+                src={getAssetUrl('contrast/diff-first.png')}
                 alt="Differentiation stage 1"
                 style={{
                   position: 'absolute',
@@ -8702,7 +8711,7 @@ function DifferentiationIntegrationChallenge({ onBack, onComplete, onMarkComplet
                 }}
               />
               <img
-                src="/contrast/diff-middle.png"
+                src={getAssetUrl('contrast/diff-middle.png')}
                 alt="Differentiation stage 2"
                 style={{
                   position: 'absolute',
@@ -8716,7 +8725,7 @@ function DifferentiationIntegrationChallenge({ onBack, onComplete, onMarkComplet
                 }}
               />
               <img
-                src="/contrast/diff-end.png"
+                src={getAssetUrl('contrast/diff-end.png')}
                 alt="Differentiation stage 3"
                 style={{
                   position: 'absolute',
@@ -8765,7 +8774,7 @@ function DifferentiationIntegrationChallenge({ onBack, onComplete, onMarkComplet
               overflow: 'hidden'
             }}>
               <img
-                src="/contrast/integration-first.png"
+                src={getAssetUrl('contrast/integration-first.png')}
                 alt="Integration stage 1"
                 style={{
                   position: 'absolute',
@@ -8779,7 +8788,7 @@ function DifferentiationIntegrationChallenge({ onBack, onComplete, onMarkComplet
                 }}
               />
               <img
-                src="/contrast/integration-middle.png"
+                src={getAssetUrl('contrast/integration-middle.png')}
                 alt="Integration stage 2"
                 style={{
                   position: 'absolute',
@@ -8793,7 +8802,7 @@ function DifferentiationIntegrationChallenge({ onBack, onComplete, onMarkComplet
                 }}
               />
               <img
-                src="/contrast/integration-end.png"
+                src={getAssetUrl('contrast/integration-end.png')}
                 alt="Integration stage 3"
                 style={{
                   position: 'absolute',
@@ -8848,7 +8857,7 @@ function DifferentiationIntegrationChallenge({ onBack, onComplete, onMarkComplet
             boxShadow: '0 4px 12px rgba(232, 134, 74, 0.2)'
           }}>
             <img 
-              src="/contrast/mission.svg" 
+              src={getAssetUrl('contrast/mission.svg')} 
               alt="Mission" 
               style={{ 
                 width: '32px', 
@@ -9603,7 +9612,7 @@ function DecimalsFractionsChallenge({ onBack, onComplete, onMarkComplete }) {
               alignItems: 'center'
             }}>
               <img
-                src="/contrast/fraction.png"
+                src={getAssetUrl('contrast/fraction.png')}
                 alt="Fraction illustration"
                 style={{
                   width: '100%',
@@ -9647,7 +9656,7 @@ function DecimalsFractionsChallenge({ onBack, onComplete, onMarkComplete }) {
               overflow: 'hidden'
             }}>
               <img
-                src="/contrast/fraction.png"
+                src={getAssetUrl('contrast/fraction.png')}
                 alt="Fraction representation"
                 style={{
                   position: 'absolute',
@@ -9661,7 +9670,7 @@ function DecimalsFractionsChallenge({ onBack, onComplete, onMarkComplete }) {
                 }}
               />
               <img
-                src="/contrast/decimal.png"
+                src={getAssetUrl('contrast/decimal.png')}
                 alt="Decimal representation"
                 style={{
                   position: 'absolute',
@@ -9716,7 +9725,7 @@ function DecimalsFractionsChallenge({ onBack, onComplete, onMarkComplete }) {
             boxShadow: '0 4px 12px rgba(232, 134, 74, 0.2)'
           }}>
             <img 
-              src="/contrast/mission.svg" 
+              src={getAssetUrl('contrast/mission.svg')} 
               alt="Mission" 
               style={{ 
                 width: '32px', 
@@ -10680,7 +10689,7 @@ function PermutationCombinationChallenge({ onBack, onComplete, onMarkComplete })
             boxShadow: '0 4px 12px rgba(232, 134, 74, 0.2)'
           }}>
             <img 
-              src="/contrast/mission.svg" 
+              src={getAssetUrl('contrast/mission.svg')} 
               alt="Mission" 
               style={{ 
                 width: '32px', 
@@ -11476,7 +11485,7 @@ function PrimeCompositeChallenge({ onBack, onComplete, onMarkComplete }) {
               overflow: 'hidden'
             }}>
               <img
-                src="/contrast/prime.png"
+                src={getAssetUrl('contrast/prime.png')}
                 alt="Prime representation"
                 style={{
                   width: '100%',
@@ -11520,7 +11529,7 @@ function PrimeCompositeChallenge({ onBack, onComplete, onMarkComplete }) {
               overflow: 'hidden'
             }}>
               <img
-                src="/contrast/composite.png"
+                src={getAssetUrl('contrast/composite.png')}
                 alt="Composite representation"
                 style={{
                   width: '100%',
@@ -11570,7 +11579,7 @@ function PrimeCompositeChallenge({ onBack, onComplete, onMarkComplete }) {
             boxShadow: '0 4px 12px rgba(232, 134, 74, 0.2)'
           }}>
             <img 
-              src="/contrast/mission.svg" 
+              src={getAssetUrl('contrast/mission.svg')} 
               alt="Mission" 
               style={{ 
                 width: '32px', 
@@ -12342,7 +12351,7 @@ function TrigInverseTrigChallenge({ onBack, onComplete, onMarkComplete }) {
               overflow: 'hidden'
             }}>
               <img
-                src="/contrast/trigonometry.png"
+                src={getAssetUrl('contrast/trigonometry.png')}
                 alt="Trigonometry representation"
                 style={{
                   width: '100%',
@@ -12383,7 +12392,7 @@ function TrigInverseTrigChallenge({ onBack, onComplete, onMarkComplete }) {
               overflow: 'hidden'
             }}>
               <img
-                src="/contrast/inv-trigonometry.png"
+                src={getAssetUrl('contrast/inv-trigonometry.png')}
                 alt="Inverse Trigonometry representation"
                 style={{
                   width: '100%',
@@ -12433,7 +12442,7 @@ function TrigInverseTrigChallenge({ onBack, onComplete, onMarkComplete }) {
             boxShadow: '0 4px 12px rgba(232, 134, 74, 0.2)'
           }}>
             <img 
-              src="/contrast/mission.svg" 
+              src={getAssetUrl('contrast/mission.svg')} 
               alt="Mission" 
               style={{ 
                 width: '32px', 
@@ -13059,7 +13068,7 @@ function LinearSimultaneousChallenge({ onBack, onComplete, onMarkComplete }) {
               overflow: 'hidden'
             }}>
               <img
-                src="/contrast/linear.png"
+                src={getAssetUrl('contrast/linear.png')}
                 alt="Linear Equation representation"
                 style={{
                   width: '100%',
@@ -13103,7 +13112,7 @@ function LinearSimultaneousChallenge({ onBack, onComplete, onMarkComplete }) {
               overflow: 'hidden'
             }}>
               <img
-                src="/contrast/simultaneous.png"
+                src={getAssetUrl('contrast/simultaneous.png')}
                 alt="Simultaneous Equations representation"
                 style={{
                   width: '100%',
@@ -13153,7 +13162,7 @@ function LinearSimultaneousChallenge({ onBack, onComplete, onMarkComplete }) {
             boxShadow: '0 4px 12px rgba(232, 134, 74, 0.2)'
           }}>
             <img 
-              src="/contrast/mission.svg" 
+              src={getAssetUrl('contrast/mission.svg')} 
               alt="Mission" 
               style={{ 
                 width: '32px', 
@@ -13831,7 +13840,7 @@ function InteriorExteriorChallenge({ onBack, onComplete, onMarkComplete }) {
               overflow: 'hidden'
             }}>
               <img
-                src="/contrast/interior.png"
+                src={getAssetUrl('contrast/interior.png')}
                 alt="Interior angle representation"
                 style={{
                   width: '100%',
@@ -13875,7 +13884,7 @@ function InteriorExteriorChallenge({ onBack, onComplete, onMarkComplete }) {
               overflow: 'hidden'
             }}>
               <img
-                src="/contrast/exterior.png"
+                src={getAssetUrl('contrast/exterior.png')}
                 alt="Exterior angle representation"
                 style={{
                   width: '100%',
@@ -13925,7 +13934,7 @@ function InteriorExteriorChallenge({ onBack, onComplete, onMarkComplete }) {
             boxShadow: '0 4px 12px rgba(232, 134, 74, 0.2)'
           }}>
             <img 
-              src="/contrast/mission.svg" 
+              src={getAssetUrl('contrast/mission.svg')} 
               alt="Mission" 
               style={{ 
                 width: '32px', 
