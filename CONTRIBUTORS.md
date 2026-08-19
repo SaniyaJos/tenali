@@ -50,7 +50,7 @@
 <!-- live-snapshot:start -->
 | 🏆 Commits | 🔀 Merged PRs | 👥 Contributors | 🧩 Puzzles | 📚 Vocab | 🌍 GK |
 |----------:|------------:|--------------:|---------:|-------:|----:|
-| **892** | **73** | **21** | **69** | **7,662** | **991** |
+| **893** | **73** | **21** | **69** | **7,662** | **991** |
 <!-- live-snapshot:end -->
 
 ## 🥇 Leaderboard
@@ -63,8 +63,8 @@ _Live data — last regenerated 2026-08-19 · auto-refreshed by [`github-actions
 | 🥇 | **S. R. S. Iyengar**<br/><sub>↳ also commits as <b>sudarshan</b></sub> | [sudarshansudarshan](https://github.com/sudarshansudarshan) | **281** | 0  | Lead Architect · Curriculum Author · 69 puzzle families |
 | 🥈 | **Mudit Agrawal** | [muditagrawal2007](https://github.com/muditagrawal2007) | **191** | 24  | Maintainer · Battle Arena · Linear Algebra · Sudoku · Playground |
 | 🥉 | **Jinal Gupta** | [jgupta05072003-code](https://github.com/jgupta05072003-code) | **84** | 0  | Upstream Repo Maintainer & PR Reviewer |
-| 4. | **Lakshmi Varshini Nandula ** | [varshini-nandula](https://github.com/varshini-nandula) | **43** | 1  | Profile Showcase & Offline Storage |
-| 5. | **github-actions-bot-**<br/><sub>↳ also commits as <b>github-actions[bot]</b></sub> | [github-actions-bot-](https://github.com/github-actions-bot-) | **42** | 0  | — |
+| 4. | **github-actions-bot-**<br/><sub>↳ also commits as <b>github-actions[bot]</b></sub> | [github-actions-bot-](https://github.com/github-actions-bot-) | **43** | 0  | — |
+| 5. | **Lakshmi Varshini Nandula ** | [varshini-nandula](https://github.com/varshini-nandula) | **43** | 1  | Profile Showcase & Offline Storage |
 | 6. | **Sameer Mishra** | [24F3005086](https://github.com/24F3005086) | **36** | 4  | i18n · Accessibility · Concept Labs |
 | 7. | **Vaibhav Satish**<br/><sub>↳ also commits as <b>Vaibhav</b></sub> | [Vaibhav-sa30](https://github.com/Vaibhav-sa30) | **35** | 2  | Vachana Literacy Lab & Vocabulary |
 | 8. | **DIPTOSUBHRO DATTA**<br/><sub>↳ also commits as <b>Dipto Subhro</b></sub> | [diptosubhro-ctrl](https://github.com/diptosubhro-ctrl) | **33** | 1  | Tutorial System + Noise Filter Refactor |
@@ -185,22 +185,18 @@ _Live data — last regenerated 2026-08-19 · auto-refreshed by [`github-actions
   <table>
     <tr>
       <td align="center" width="220">
-        <a href="https://github.com/varshini-nandula"><img src="https://avatars.githubusercontent.com/u/174730796?v=4&s=120" width="120" style="border-radius:50%; border:3px solid #CD7F32;" alt="Lakshmi Varshini Nandula "/></a>
-        <br/><b>Lakshmi Varshini Nandula </b>
-        <br/><a href="https://github.com/varshini-nandula">@varshini-nandula</a>
-        <br/><sub>🏆 43 commits · 1 PR merged</sub>
+        <a href="https://github.com/github-actions-bot-"><img src="https://github.com/github-actions-bot-.png?size=120&s=120" width="120" style="border-radius:50%; border:3px solid #888888;" alt="github-actions-bot-"/></a>
+        <br/><b>github-actions-bot-</b>
+        <br/><a href="https://github.com/github-actions-bot-">@github-actions-bot-</a>
+        <br/><sub>🏆 43 commits · 0 PRs merged</sub>
+        <br/><sub>🔗 also commits as: <b>github-actions[bot]</b></sub>
       </td>
       <td valign="top" width="*">
-        <h4>4. Profile Showcase & Offline Storage</h4>
+        <h4>4. New Contributor</h4>
         <ul>
-          <li>🏅 <b>Profile Achievement Showcase (PR #59)</b> — badge cabinet, category dropdown, circular close buttons</li>
-          <li>📦 <b>Scalable MongoDB collections</b> — <code>UserStats</code>, <code>UserMilestone</code>, <code>UserTopicProgress</code>, <code>UserCollectionProgress</code></li>
-          <li>💾 <b>Persistent JSON fallback DB</b> — offline mode that survives MongoDB outages + <code>StudentAttemptLog</code></li>
-          <li>🎉 <b>Celebration queue</b> — real-time badge-unlock + celebration modal logic</li>
-          <li>🥇 <b>15-day streak milestone badge</b> — new badge type + image asset</li>
-          <li>🗂️ <b>Category-priority sorting</b> — badges sorted by domain in the showcase</li>
-          <li>🔗 <b>Profile ↔ URL mode sync</b> — deep-link to specific profile topics</li>
-          <li>🛠️ <b>Crash fixes</b> — restored <code>tenaliIncrementSolved</code>, <code>showAbout</code>, <code>menuOpen</code>, <code>search</code>, resolved duplicate identifiers in <code>App.jsx</code></li>
+          <li>🆕 <b>New contributor</b> — auto-added by the readme-bot</li>
+          <li>📊 <b>43 commits</b> across this repo's history</li>
+          <li>🔗 <i>Add a <code>FALLBACK_PROFILES</code> entry in <code>scripts/update-readme-contributors.js</code> to enrich this card with real name, avatar, location, and curated feature list</i></li>
         </ul>
       </td>
     </tr>
@@ -211,18 +207,22 @@ _Live data — last regenerated 2026-08-19 · auto-refreshed by [`github-actions
   <table>
     <tr>
       <td align="center" width="220">
-        <a href="https://github.com/github-actions-bot-"><img src="https://github.com/github-actions-bot-.png?size=120&s=120" width="120" style="border-radius:50%; border:3px solid #888888;" alt="github-actions-bot-"/></a>
-        <br/><b>github-actions-bot-</b>
-        <br/><a href="https://github.com/github-actions-bot-">@github-actions-bot-</a>
-        <br/><sub>🏆 42 commits · 0 PRs merged</sub>
-        <br/><sub>🔗 also commits as: <b>github-actions[bot]</b></sub>
+        <a href="https://github.com/varshini-nandula"><img src="https://avatars.githubusercontent.com/u/174730796?v=4&s=120" width="120" style="border-radius:50%; border:3px solid #CD7F32;" alt="Lakshmi Varshini Nandula "/></a>
+        <br/><b>Lakshmi Varshini Nandula </b>
+        <br/><a href="https://github.com/varshini-nandula">@varshini-nandula</a>
+        <br/><sub>🏆 43 commits · 1 PR merged</sub>
       </td>
       <td valign="top" width="*">
-        <h4>5. New Contributor</h4>
+        <h4>5. Profile Showcase & Offline Storage</h4>
         <ul>
-          <li>🆕 <b>New contributor</b> — auto-added by the readme-bot</li>
-          <li>📊 <b>42 commits</b> across this repo's history</li>
-          <li>🔗 <i>Add a <code>FALLBACK_PROFILES</code> entry in <code>scripts/update-readme-contributors.js</code> to enrich this card with real name, avatar, location, and curated feature list</i></li>
+          <li>🏅 <b>Profile Achievement Showcase (PR #59)</b> — badge cabinet, category dropdown, circular close buttons</li>
+          <li>📦 <b>Scalable MongoDB collections</b> — <code>UserStats</code>, <code>UserMilestone</code>, <code>UserTopicProgress</code>, <code>UserCollectionProgress</code></li>
+          <li>💾 <b>Persistent JSON fallback DB</b> — offline mode that survives MongoDB outages + <code>StudentAttemptLog</code></li>
+          <li>🎉 <b>Celebration queue</b> — real-time badge-unlock + celebration modal logic</li>
+          <li>🥇 <b>15-day streak milestone badge</b> — new badge type + image asset</li>
+          <li>🗂️ <b>Category-priority sorting</b> — badges sorted by domain in the showcase</li>
+          <li>🔗 <b>Profile ↔ URL mode sync</b> — deep-link to specific profile topics</li>
+          <li>🛠️ <b>Crash fixes</b> — restored <code>tenaliIncrementSolved</code>, <code>showAbout</code>, <code>menuOpen</code>, <code>search</code>, resolved duplicate identifiers in <code>App.jsx</code></li>
         </ul>
       </td>
     </tr>
