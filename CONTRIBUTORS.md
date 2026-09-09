@@ -50,20 +50,20 @@
 <!-- live-snapshot:start -->
 | 🏆 Commits | 🔀 Merged PRs | 👥 Contributors | 🧩 Puzzles | 📚 Vocab | 🌍 GK |
 |----------:|------------:|--------------:|---------:|-------:|----:|
-| **933** | **73** | **21** | **69** | **7,662** | **991** |
+| **934** | **73** | **21** | **69** | **7,662** | **991** |
 <!-- live-snapshot:end -->
 
 ## 🥇 Leaderboard
 
 <!-- live-rank:start -->
-_Live data — last regenerated 2026-09-08 · auto-refreshed by [`github-actions[bot]`](https://github.com/features/actions) on every push to `main` and every 12h._
+_Live data — last regenerated 2026-09-09 · auto-refreshed by [`github-actions[bot]`](https://github.com/features/actions) on every push to `main` and every 12h._
 
 | # | 👤 Real Name | 🔗 GitHub ID | 📝 Commits | 🔀 PRs | 🏷️ Role |
 |--:|:-------------|:-------------|----------:|-----:|:--------|
 | 🥇 | **S. R. S. Iyengar**<br/><sub>↳ also commits as <b>sudarshan</b></sub> | [sudarshansudarshan](https://github.com/sudarshansudarshan) | **281** | 0  | Lead Architect · Curriculum Author · 69 puzzle families |
 | 🥈 | **Mudit Agrawal** | [muditagrawal2007](https://github.com/muditagrawal2007) | **191** | 24  | Maintainer · Battle Arena · Linear Algebra · Sudoku · Playground |
-| 🥉 | **Jinal Gupta** | [jgupta05072003-code](https://github.com/jgupta05072003-code) | **84** | 0  | Upstream Repo Maintainer & PR Reviewer |
-| 4. | **github-actions-bot-**<br/><sub>↳ also commits as <b>github-actions[bot]</b></sub> | [github-actions-bot-](https://github.com/github-actions-bot-) | **83** | 0  | — |
+| 🥉 | **github-actions-bot-**<br/><sub>↳ also commits as <b>github-actions[bot]</b></sub> | [github-actions-bot-](https://github.com/github-actions-bot-) | **84** | 0  | — |
+| 4. | **Jinal Gupta** | [jgupta05072003-code](https://github.com/jgupta05072003-code) | **84** | 0  | Upstream Repo Maintainer & PR Reviewer |
 | 5. | **Lakshmi Varshini Nandula ** | [varshini-nandula](https://github.com/varshini-nandula) | **43** | 1  | Profile Showcase & Offline Storage |
 | 6. | **Sameer Mishra** | [24F3005086](https://github.com/24F3005086) | **36** | 4  | i18n · Accessibility · Concept Labs |
 | 7. | **Vaibhav Satish**<br/><sub>↳ also commits as <b>Vaibhav</b></sub> | [Vaibhav-sa30](https://github.com/Vaibhav-sa30) | **35** | 2  | Vachana Literacy Lab & Vocabulary |
@@ -158,23 +158,18 @@ _Live data — last regenerated 2026-09-08 · auto-refreshed by [`github-actions
   <table>
     <tr>
       <td align="center" width="220">
-        <a href="https://github.com/jgupta05072003-code"><img src="https://avatars.githubusercontent.com/u/267273120?v=4&s=120" width="120" style="border-radius:50%; border:3px solid #4D96FF;" alt="Jinal Gupta"/></a>
-        <br/><b>Jinal Gupta</b>
-        <br/><sub><i>(git: J. Gupta)</i></sub>
-        <br/><a href="https://github.com/jgupta05072003-code">@jgupta05072003-code</a>
+        <a href="https://github.com/github-actions-bot-"><img src="https://github.com/github-actions-bot-.png?size=120&s=120" width="120" style="border-radius:50%; border:3px solid #888888;" alt="github-actions-bot-"/></a>
+        <br/><b>github-actions-bot-</b>
+        <br/><a href="https://github.com/github-actions-bot-">@github-actions-bot-</a>
         <br/><sub>🏆 84 commits · 0 PRs merged</sub>
+        <br/><sub>🔗 also commits as: <b>github-actions[bot]</b></sub>
       </td>
       <td valign="top" width="*">
-        <h4>🥉 Upstream Repo Maintainer & PR Reviewer</h4>
+        <h4>🥉 New Contributor</h4>
         <ul>
-          <li>🔍 <b>Reviewed and merged 30+ PRs</b> into <code>vicharanashala/tenali</code></li>
-          <li>🔧 <b>Hardened JWT auth</b> — centralized JWT_SECRET, removed duplicate declarations (#96)</li>
-          <li>🛡️ <b>Rate limiting + CORS allowlist</b> — added <code>express-rate-limit</code> + origin allowlist (#85)</li>
-          <li>🧹 <b>Repo cleanup</b> — removed committed debug/scratch files (#83)</li>
-          <li>🌱 <b>Seed users via env</b> — refactored <code>auth.js</code> so credentials come from <code>TENALI_SEED_USERS</code> (#82)</li>
-          <li>🛣️ <b>Base-path-aware routing</b> — fixed <code>/summership</code> sub-paths (#80)</li>
-          <li>📦 <b>Missing dependencies</b> — chart.js (#79), mafs (#75), removed UTF-8 BOM from <code>App.css</code> (#63), unified module theming (#65)</li>
-          <li>🏠 <b>Restored Journey banner</b> (#76) + <b>AuthGate home button</b> (#78) + <b>Linear Algebra API base</b> (#40)</li>
+          <li>🆕 <b>New contributor</b> — auto-added by the readme-bot</li>
+          <li>📊 <b>84 commits</b> across this repo's history</li>
+          <li>🔗 <i>Add a <code>FALLBACK_PROFILES</code> entry in <code>scripts/update-readme-contributors.js</code> to enrich this card with real name, avatar, location, and curated feature list</i></li>
         </ul>
       </td>
     </tr>
@@ -185,18 +180,23 @@ _Live data — last regenerated 2026-09-08 · auto-refreshed by [`github-actions
   <table>
     <tr>
       <td align="center" width="220">
-        <a href="https://github.com/github-actions-bot-"><img src="https://github.com/github-actions-bot-.png?size=120&s=120" width="120" style="border-radius:50%; border:3px solid #888888;" alt="github-actions-bot-"/></a>
-        <br/><b>github-actions-bot-</b>
-        <br/><a href="https://github.com/github-actions-bot-">@github-actions-bot-</a>
-        <br/><sub>🏆 83 commits · 0 PRs merged</sub>
-        <br/><sub>🔗 also commits as: <b>github-actions[bot]</b></sub>
+        <a href="https://github.com/jgupta05072003-code"><img src="https://avatars.githubusercontent.com/u/267273120?v=4&s=120" width="120" style="border-radius:50%; border:3px solid #4D96FF;" alt="Jinal Gupta"/></a>
+        <br/><b>Jinal Gupta</b>
+        <br/><sub><i>(git: J. Gupta)</i></sub>
+        <br/><a href="https://github.com/jgupta05072003-code">@jgupta05072003-code</a>
+        <br/><sub>🏆 84 commits · 0 PRs merged</sub>
       </td>
       <td valign="top" width="*">
-        <h4>4. New Contributor</h4>
+        <h4>4. Upstream Repo Maintainer & PR Reviewer</h4>
         <ul>
-          <li>🆕 <b>New contributor</b> — auto-added by the readme-bot</li>
-          <li>📊 <b>83 commits</b> across this repo's history</li>
-          <li>🔗 <i>Add a <code>FALLBACK_PROFILES</code> entry in <code>scripts/update-readme-contributors.js</code> to enrich this card with real name, avatar, location, and curated feature list</i></li>
+          <li>🔍 <b>Reviewed and merged 30+ PRs</b> into <code>vicharanashala/tenali</code></li>
+          <li>🔧 <b>Hardened JWT auth</b> — centralized JWT_SECRET, removed duplicate declarations (#96)</li>
+          <li>🛡️ <b>Rate limiting + CORS allowlist</b> — added <code>express-rate-limit</code> + origin allowlist (#85)</li>
+          <li>🧹 <b>Repo cleanup</b> — removed committed debug/scratch files (#83)</li>
+          <li>🌱 <b>Seed users via env</b> — refactored <code>auth.js</code> so credentials come from <code>TENALI_SEED_USERS</code> (#82)</li>
+          <li>🛣️ <b>Base-path-aware routing</b> — fixed <code>/summership</code> sub-paths (#80)</li>
+          <li>📦 <b>Missing dependencies</b> — chart.js (#79), mafs (#75), removed UTF-8 BOM from <code>App.css</code> (#63), unified module theming (#65)</li>
+          <li>🏠 <b>Restored Journey banner</b> (#76) + <b>AuthGate home button</b> (#78) + <b>Linear Algebra API base</b> (#40)</li>
         </ul>
       </td>
     </tr>
